@@ -75,7 +75,7 @@ localStorage.setItem('Zork', 'You are about to be eaten by a Grue!');
 ##### value - the value to set; this can be number, string, object, array.  (Must be a native JavaScript object)
 
 ```js
-localStorage.setItem('Zork', {result: 'You are about to be eaten by a Grue!'});
+localStorage.setItemObject('Zork', {result: 'You are about to be eaten by a Grue!'});
 ```
 
 
